@@ -16,23 +16,26 @@
 </head>
 
 <body>
-    <div class="hero"></div>
+   
     <div class="container">
         <h2 class="header">Wheather app</h2>
-        <input type="text" placeholder=" Find city..." class="input">
+        <input type="text" placeholder=" City.." class="input">
         <button class="find-btn"><i class="fas fa-search"></i></button>
+     
 
         <div class="weather-section">
             <div class="text-section">
-                <h2 class="city">Warszawa</h2>
-                <h2 class="temp">23°C</h2>
-                <h2 class="description">sunny</h2>
+                <h2 class="city"></h2>
+                <h2 class="temp"></h2>
+                <h2 class="description"></h2>
             </div>
-            <div class="icon"><img src="/assets/sun.png"></div>
+            <div><img src="/assets/unknown.png" alt="pictures" class="icon"></div>
         </div>
     </div>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="/script.js"></script>
 </body>
 
 </html>
